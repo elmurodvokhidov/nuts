@@ -15,5 +15,44 @@
         "link2": "mahsulotlar",
         "link3": "biz haqimizda",
         "link4": "aloqa"
+    },
+    "products": {
+        "text1": "Mahsulotlarimiz",
+        "text2": "Mahsulotlarimiz bilan ajoyib xizmatni taqdim etishdan mamnunmiz",
+        "title1": "Mahsulotni kashf qiling, o'rganing",
+        "des1": "Mijozlarga erishishingizga yordam beradigan samarali strategiyalar"
+    },
+    "about": {
+        "text1": "Biz haqimizda",
+        "text2": "Biz muvaffaqiyatli raqamli mahsulotni yaratish uchun qadamlar yaratamiz",
+        "des1": "50 yildan ortiq tajribaga ega bo'lgan holda, bizning vazifamiz sizning qadriyatlaringiz va qarashlaringizni hisobga olgan holda loyihalashdir. Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
+        "des2": "Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz."
+    },
+    "whyus": {
+        "text1": "Nima uchun biz",
+        "text2": "Biz rivojlanishga ixtisoslashgan SEO kompaniyasimiz",
+        "text3": "Muvaffaqiyatli yakunlangan loyihalar",
+        "text4": "Yuqori ixtisoslashgan xodimlar",
+        "text5": "50 yildan ortiq tajribaga ega bo'lgan holda, bizning vazifamiz sizning qadriyatlaringiz va qarashlaringizni hisobga olgan holda loyihalashdir. Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
+        "text6": "-Shonda Lir, Franclin Technologies kompaniyasi rahbari"
+    },
+    "works": {
+        "text1": "Amaliy Ish",
+        "text2": "Ajoyib mahsulotlarimizdan ba'zilari",
+        "text3": "Yong'oqlar",
+        "text4": "Mahsulotni kashf qiling, o'rganing"
+    },
+    "contact": {
+        "text1": "Digging Dipperga qiziqasizmi?",
+        "text2": "Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
+        "text3": "Biz bilan bog'lanish"
+    },
+    "footer": {
+        "title1": "Navigatsiya",
+        "title2": "Xizmatlar",
+        "title3": "Qo'llab-quvvatlash",
+        "title4": "Biz bilan bog'lanish",
+        "text1": "© 2025 Barcha huquqlar himoyalangan",
+        "text2": "Tashkilot Nomi"
     }
 }

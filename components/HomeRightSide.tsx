@@ -1,4 +1,3 @@
-import React from 'react'
 import MainAnimation from './MainAnimation'
 
 export default function HomeRightSide() {
@@ -7,7 +6,7 @@ export default function HomeRightSide() {
             <MainAnimation className="size-[1010px] absolute -top-[250px] -right-[210px] hidden lg:block" />
             <div className="hidden w-[900px] h-[900px] absolute -top-[250px] -right-[300px] rounded-full -skew-y-[15deg] rotate-[20deg] overflow-hidden lg:block">
                 <video
-                    src="videos/nuts1.mp4"
+                    src="videos/nuts.mp4"
                     loop
                     muted
                     autoPlay

@@ -3,6 +3,7 @@ import { Nunito } from "next/font/google";
 import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default async function LocaleLayout({
             <div className="main_gradient" />
           </div>
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
