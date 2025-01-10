@@ -1,0 +1,19 @@
+{
+    "LocaleSwitcher": {
+        "uz": "O'zbekcha",
+        "en": "Inglizcha",
+        "label": "Til"
+    },
+    "section1": {
+        "text1": "Raqamli marketing bo'yicha mutaxassis",
+        "text2": "Biz sizga yangi mijozlarni olib kelamiz",
+        "text3": "Biz butun Internet bo'ylab mijozlar va istiqbollarga erishishingizga yordam beradigan samarali strategiyalarni ishlab chiqamiz.",
+        "text4": "Xizmatlarni o'rganish"
+    },
+    "navbar": {
+        "link1": "bosh sahifa",
+        "link2": "mahsulotlar",
+        "link3": "biz haqimizda",
+        "link4": "aloqa"
+    }
+}

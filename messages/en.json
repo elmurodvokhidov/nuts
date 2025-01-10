@@ -1,0 +1,19 @@
+{
+    "LocaleSwitcher": {
+        "uz": "Uzbek",
+        "en": "English",
+        "label": "Language"
+    },
+    "section1": {
+        "text1": "Digital Marketing Expert",
+        "text2": "We bring you new customers",
+        "text3": "We build effective strategies to help you reach customers and prospects across the entire web.",
+        "text4": "Explore Services"
+    },
+    "navbar": {
+        "link1": "home",
+        "link2": "products",
+        "link3": "about",
+        "link4": "contact"
+    }
+}
