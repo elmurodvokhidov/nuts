@@ -20,7 +20,7 @@ export default function Home() {
           <HomeLeftSide />
 
           {/* Bosh sahifaning o'ng qismi */}
-          <HomeRightSide />
+          <HomeRightSide src="videos/nuts.mp4" />
         </main>
       </section>
 

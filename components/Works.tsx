@@ -14,7 +14,7 @@ export default function Works() {
     const t = useTranslations('works');
 
     return (
-        <div className='px-8 my-32 space-y-16'>
+        <div className='px-8 space-y-16'>
             <div className='flex flex-col items-center gap-5'>
                 <p className='p'>{t('text1')}</p>
                 <h1 className='h1'>{t('text2')}</h1>

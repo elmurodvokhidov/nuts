@@ -6,7 +6,7 @@ export default function Contact() {
     const t = useTranslations('contact');
 
     return (
-        <div className='my-32 relative z-10 bg-black'>
+        <div className='my-40 relative z-10 bg-black'>
             <Image
                 src="/images/contact-bg.jpg"
                 alt="contact"

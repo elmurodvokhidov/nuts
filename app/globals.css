@@ -215,5 +215,13 @@ nav a.active::after {
 }
 
 .section {
-  @apply relative z-10 px-8;
+  @apply relative z-10 px-8 space-y-32;
+}
+
+.shad_textArea {
+  @apply placeholder:text-gray-500 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-none !important;
+}
+
+.shad_input {
+  @apply placeholder:text-gray-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-none !important;
 }

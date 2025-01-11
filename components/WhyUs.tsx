@@ -5,7 +5,7 @@ export default function WhyUs() {
     const t = useTranslations('whyus');
 
     return (
-        <div className='px-16 space-y-10 my-10'>
+        <div className='px-16 space-y-10'>
             <div className='flex flex-col items-center gap-5 border-b border-gray-200 pb-10'>
                 <p className='p'>{t('text1')}</p>
                 <h1 className='h1'>{t('text2')}</h1>

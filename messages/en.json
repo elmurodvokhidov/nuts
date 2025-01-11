@@ -20,13 +20,15 @@
         "text1": "Our Products",
         "text2": "We are pleased to provide excellent service with our products",
         "title1": "Discover, Explore the Product",
-        "des1": "Effective strategies to help you reach customers"
+        "des1": "Effective strategies to help you reach customers",
+        "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
     },
     "about": {
         "text1": "About Us",
         "text2": "We Create a Steps to Build a Successful Digital Product",
         "des1": "With over 50 years of combined experience, our mission is to design with your values and vision in mind. We're out to create purposeful spaces that balance art and creativity with science and strategy.",
-        "des2": "We're out to create purposeful spaces that balance art and creativity with science and strategy."
+        "des2": "We're out to create purposeful spaces that balance art and creativity with science and strategy.",
+        "header": "We build effective strategies to help you reach customers and prospects across the entire web."
     },
     "whyus": {
         "text1": "Why Choose US",
@@ -45,7 +47,18 @@
     "contact": {
         "text1": "Interested to Digging Dipper?",
         "text2": "We're out to create purposeful spaces that balance art and creativity with science and strategy.",
-        "text3": "Contact Us"
+        "text3": "Contact Us",
+        "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
+    },
+    "form": {
+        "title1": "Get in Touch",
+        "msg": "Enter Message",
+        "name": "Enter your name",
+        "email": "Email",
+        "subject": "Enter Subject",
+        "time": "Monday - Friday 9:00 - 18:00",
+        "text1": "Send",
+        "text2": "Send us your query anytime!"
     },
     "footer": {
         "title1": "Navigation",

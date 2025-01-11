@@ -5,7 +5,7 @@ export default function About() {
     const t = useTranslations('about');
 
     return (
-        <div className='flex items-center justify-center gap-[150px] py-10'>
+        <div className='flex items-center justify-center gap-[150px]'>
             <Image
                 src="/images/about.png"
                 alt="Picture of the author"

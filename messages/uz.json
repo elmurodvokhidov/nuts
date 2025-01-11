@@ -20,13 +20,15 @@
         "text1": "Mahsulotlarimiz",
         "text2": "Mahsulotlarimiz bilan ajoyib xizmatni taqdim etishdan mamnunmiz",
         "title1": "Mahsulotni kashf qiling, o'rganing",
-        "des1": "Mijozlarga erishishingizga yordam beradigan samarali strategiyalar"
+        "des1": "Mijozlarga erishishingizga yordam beradigan samarali strategiyalar",
+        "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
     },
     "about": {
         "text1": "Biz haqimizda",
         "text2": "Biz muvaffaqiyatli raqamli mahsulotni yaratish uchun qadamlar yaratamiz",
         "des1": "50 yildan ortiq tajribaga ega bo'lgan holda, bizning vazifamiz sizning qadriyatlaringiz va qarashlaringizni hisobga olgan holda loyihalashdir. Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
-        "des2": "Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz."
+        "des2": "Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
+        "header": "Biz butun Internet bo'ylab mijozlar va istiqbollarga erishishingizga yordam beradigan samarali strategiyalarni ishlab chiqamiz."
     },
     "whyus": {
         "text1": "Nima uchun biz",
@@ -45,7 +47,18 @@
     "contact": {
         "text1": "Digging Dipperga qiziqasizmi?",
         "text2": "Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
-        "text3": "Biz bilan bog'lanish"
+        "text3": "Biz bilan bog'lanish",
+        "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
+    },
+    "form": {
+        "title1": "Biz bilan bog'laning",
+        "msg": "Xabar kiriting",
+        "name": "Ismingizni kiriting",
+        "email": "Elektron pochta",
+        "subject": "Mavzu",
+        "time": "Dushanba - Juma 9:00 - 18:00",
+        "text1": "Yuborish",
+        "text2": "Istalgan vaqtda bizga so'rovingizni yuboring!"
     },
     "footer": {
         "title1": "Navigatsiya",

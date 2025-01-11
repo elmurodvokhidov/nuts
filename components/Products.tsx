@@ -18,7 +18,7 @@ export default function Products() {
     const t = useTranslations('products');
 
     return (
-        <div className='space-y-28 px-8 py-28'>
+        <div className='space-y-28 px-8'>
             <div className='flex flex-col items-center gap-5'>
                 <p className='p'>{t('text1')}</p>
                 <h1 className='h1'>{t('text2')}</h1>
