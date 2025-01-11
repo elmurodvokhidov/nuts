@@ -79,13 +79,13 @@ export default function ContactForm() {
                         )}
                     />
 
-                    <div className="w-full flex items-center gap-6">
+                    <div className="w-full flex md:flex-row flex-col items-center gap-6">
                         {/* Name Input */}
                         <FormField
                             control={form.control}
                             name="name"
                             render={({ field }) => (
-                                <FormItem className="w-1/2">
+                                <FormItem className="md:w-1/2 w-full">
                                     <FormControl>
                                         <Input
                                             placeholder={t('name')}
@@ -104,7 +104,7 @@ export default function ContactForm() {
                             control={form.control}
                             name="email"
                             render={({ field }) => (
-                                <FormItem className="w-1/2">
+                                <FormItem className="md:w-1/2 w-full">
                                     <FormControl>
                                         <Input
                                             placeholder={t('email')}

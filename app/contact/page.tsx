@@ -22,7 +22,7 @@ export default function Page() {
             </section>
 
             {/* Umumiy qism */}
-            <section className="section !px-20 !my-32">
+            <section className="section lg:!px-20 !my-32">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2755.749207176076!2d-87.76580116676062!3d42.018145127596775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcf2797ba9ccd%3A0x43cf790c38c2e9c5!2sGeorgia%20Nut%20Company!5e1!3m2!1sen!2sus!4v1736587583827!5m2!1sen!2sus"
                     height="450"
@@ -34,7 +34,9 @@ export default function Page() {
 
                 {/* So'rov oynasi */}
                 <div className='my-20 space-y-6'>
-                    <h1 className="text-black text-3xl font-semibold">{t('form.title1')}</h1>
+                    <h1 className="text-black text-3xl font-semibold">
+                        {t('form.title1')}
+                    </h1>
                     <ContactForm />
                 </div>
             </section>

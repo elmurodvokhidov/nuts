@@ -18,13 +18,13 @@ export default function Products() {
     const t = useTranslations('products');
 
     return (
-        <div className='space-y-28 px-8'>
+        <div className='md:space-y-28 space-y-16 px-4 md:px-8 mt-8'>
             <div className='flex flex-col items-center gap-5'>
                 <p className='p'>{t('text1')}</p>
                 <h1 className='h1'>{t('text2')}</h1>
             </div>
 
-            <div className='flex items-center justify-between gap-10'>
+            <div className='flex flex-wrap items-center md:justify-between justify-center gap-10'>
                 <ProductCard
                     txt={t('title1')}
                     des={t('des1')}

@@ -211,7 +211,7 @@ nav a.active::after {
 }
 
 .h1 {
-  @apply md:text-4xl sm:text-3xl text-2xl font-bold tracking-wider w-3/5 text-center text-black
+  @apply md:text-4xl sm:text-3xl text-2xl font-bold tracking-wider w-full md:w-3/5 sm:w-full text-center text-black
 }
 
 .section {
@@ -224,4 +224,12 @@ nav a.active::after {
 
 .shad_input {
   @apply placeholder:text-gray-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-none !important;
+}
+
+.main_animation {
+  @apply size-[910px] absolute -top-[250px] xl:-right-[210px] md:-right-[310px] -right-[410px] !important;
+}
+
+.main_video {
+  @apply w-[800px] h-[800px] absolute -top-[250px] xl:-right-[300px] md:-right-[400px] -right-[500px] rounded-full -skew-y-[15deg] rotate-[20deg] overflow-hidden !important;
 }
