@@ -5,7 +5,7 @@ import SectionHeader from '@/components/SectionHeader'
 import WhyUs from '@/components/WhyUs';
 import { useTranslations } from 'next-intl';
 
-export default function page() {
+export default function Page() {
     const t = useTranslations('about');
 
     return (

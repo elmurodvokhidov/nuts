@@ -46,8 +46,10 @@ export default function ContactForm() {
 
         try {
             // Do something with the form values
+            console.log(values);
         } catch (error) {
             setErrorMessage("Failed to create account. Please try again.");
+            console.log(error);
         } finally {
             setIsLoading(false);
         }
