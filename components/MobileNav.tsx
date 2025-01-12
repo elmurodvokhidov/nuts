@@ -8,7 +8,12 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
-import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from "./ui/sheet";
+import {
+    Sheet,
+    SheetContent,
+    SheetTitle,
+    SheetTrigger
+} from "./ui/sheet";
 
 export default function MobileNav() {
     const [open, setOpen] = useState(false);
@@ -38,7 +43,6 @@ export default function MobileNav() {
                                 />
                             </SheetTrigger>
                             <SheetContent className="h-screen px-3">
-                                <SheetTitle></SheetTitle>
                                 <nav className="flex flex-col gap-8 justify-center items-start pl-10">
                                     <Link href="/" className={cn(pathname === "/" && "active", "text-lg text-black capitalize")}>
                                         {t('link1')}
