@@ -11,7 +11,6 @@ import { useTranslations } from "next-intl";
 import {
     Sheet,
     SheetContent,
-    SheetTitle,
     SheetTrigger
 } from "./ui/sheet";
 
