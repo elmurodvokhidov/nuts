@@ -22,81 +22,81 @@ export default function Footer() {
                     alt="logo"
                 />
 
-                <p className='text-base text-gray-600'>{t('footer.text1')}</p>
+                <p className='text-base laptop:text-xl text-gray-600'>{t('footer.text1')}</p>
 
                 <div className='footer_social flex items-center gap-2'>
                     <Link href="#">
-                        <Instagram strokeWidth={1.5} className='size-5' />
+                        <Instagram strokeWidth={1.5} className='size-5 laptop:size-6' />
                     </Link>
                     <Link href="#">
-                        <Facebook strokeWidth={1.5} className='size-5' />
+                        <Facebook strokeWidth={1.5} className='size-5 laptop:size-6' />
                     </Link>
                     <Link href="#">
-                        <Linkedin strokeWidth={1.5} className='size-5' />
+                        <Linkedin strokeWidth={1.5} className='size-5 laptop:size-6' />
                     </Link>
                     <Link href="#">
-                        <Youtube strokeWidth={1.5} className='size-5' />
+                        <Youtube strokeWidth={1.5} className='size-5 laptop:size-6' />
                     </Link>
                 </div>
             </div>
 
             <div className='flex flex-col items-start gap-4'>
-                <h4 className='text-2xl font-bold text-black mb-4'>{t('footer.title1')}</h4>
-                <Link href="/" className="text-base text-gray-500 capitalize hover:underline">
+                <h4 className='text-2xl laptop:text-3xl font-bold text-black mb-4'>{t('footer.title1')}</h4>
+                <Link href="/" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link1')}
                 </Link>
-                <Link href="/products" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/products" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link2')}
                 </Link>
-                <Link href="/about" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/about" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link3')}
                 </Link>
-                <Link href="/contact" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/contact" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link4')}
                 </Link>
             </div>
 
             <div className='flex flex-col items-start gap-4'>
-                <h4 className='text-2xl font-bold text-black mb-4'>{t('footer.title2')}</h4>
-                <Link href="/" className="text-base text-gray-500 capitalize hover:underline">
+                <h4 className='text-2xl laptop:text-3xl font-bold text-black mb-4'>{t('footer.title2')}</h4>
+                <Link href="/" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link1')}
                 </Link>
-                <Link href="/products" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/products" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link2')}
                 </Link>
-                <Link href="/about" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/about" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link3')}
                 </Link>
-                <Link href="/contact" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/contact" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link4')}
                 </Link>
             </div>
 
             <div className='flex flex-col items-start gap-4'>
-                <h4 className='text-2xl font-bold text-black mb-4'>{t('footer.title3')}</h4>
-                <Link href="/" className="text-base text-gray-500 capitalize hover:underline">
+                <h4 className='text-2xl laptop:text-3xl font-bold text-black mb-4'>{t('footer.title3')}</h4>
+                <Link href="/" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link1')}
                 </Link>
-                <Link href="/products" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/products" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link2')}
                 </Link>
-                <Link href="/about" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/about" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link3')}
                 </Link>
-                <Link href="/contact" className="text-base text-gray-500 capitalize hover:underline">
+                <Link href="/contact" className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('navbar.link4')}
                 </Link>
             </div>
 
             <div className='flex flex-col items-start gap-4'>
-                <h4 className='text-2xl font-bold text-black mb-4'>{t('footer.title4')}</h4>
-                <Link href="https://t.me/elmurodvkh" target='_blank' className="text-base text-gray-500 capitalize hover:underline">
+                <h4 className='text-2xl laptop:text-3xl font-bold text-black mb-4'>{t('footer.title4')}</h4>
+                <Link href="https://t.me/elmurodvkh" target='_blank' className="text-base laptop:text-xl text-gray-500 capitalize hover:underline">
                     {t('footer.text2')}
                 </Link>
-                <Link href="#" className="text-base text-gray-500 hover:underline">
+                <Link href="#" className="text-base laptop:text-xl text-gray-500 hover:underline">
                     company@name.com
                 </Link>
-                <button className='text-xl text-pink underline'>
+                <button className='text-xl laptop:text-2xl text-red-400 underline'>
                     998 (33) 004-08-04
                 </button>
             </div>

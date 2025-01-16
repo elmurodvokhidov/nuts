@@ -1,25 +1,18 @@
 import ContactForm from '@/components/ContactForm'
-import Navbar from '@/components/Navbar'
 import SectionHeader from '@/components/SectionHeader'
-import { useTranslations } from 'next-intl';
+import { getVideoByType } from '@/lib/actions/video.actions';
 
-export default function Page() {
-    const t = useTranslations();
+export default async function Page() {
+    const videoUrl = await getVideoByType('contact');
 
     return (
         <div>
             {/* Birinchi bo'lak */}
-            <section className="h-screen relative overflow-hidden">
-                {/* Navbar Componenti */}
-                <Navbar />
-
-                {/* Sahifaning asosiy bosh bo'lagi */}
-                <SectionHeader
-                    title={t('contact.text3')}
-                    description={t('contact.header')}
-                    src="videos/contact.mp4"
-                />
-            </section>
+            <SectionHeader
+                title='contact.text3'
+                description='contact.header'
+                src={videoUrl}
+            />
 
             {/* Umumiy qism */}
             <section className="section lg:!px-20 !my-32">
@@ -33,12 +26,7 @@ export default function Page() {
                 />
 
                 {/* So'rov oynasi */}
-                <div className='my-20 space-y-6'>
-                    <h1 className="text-black text-3xl font-semibold">
-                        {t('form.title1')}
-                    </h1>
-                    <ContactForm />
-                </div>
+                <ContactForm />
             </section>
         </div>
     )

@@ -16,7 +16,11 @@ export default function LocaleSwitcher() {
                 {
                     value: 'uz',
                     label: t('uz')
-                }
+                },
+                {
+                    value: 'ru',
+                    label: t('ru')
+                },
             ]}
             label={t('label')}
         />

@@ -30,9 +30,8 @@ body {
 }
 
 .gradient {
-  background: linear-gradient(to bottom, #7db9e8 0%, #ff6d6d 0%, #ff4495 100%);
+  background: linear-gradient(to bottom, #7db9e8 0%, #00AD83A1 0%, #17B169A1 100%);
 }
-
 
 .main {
   width: 100vw;
@@ -161,7 +160,7 @@ nav a {
 }
 
 nav a:hover {
-  @apply text-pink;
+  @apply text-green-600;
 }
 
 nav a::after {
@@ -170,15 +169,15 @@ nav a::after {
 }
 
 nav a:hover::after {
-  @apply w-full h-0.5 bg-pink;
+  @apply w-full h-0.5 bg-green-600;
 }
 
 nav a.active {
-  @apply text-pink;
+  @apply text-green-600;
 }
 
 nav a.active::after {
-  @apply w-full h-0.5 bg-pink;
+  @apply w-full h-0.5 bg-green-600;
 }
 
 .footer_social a {
@@ -190,7 +189,7 @@ nav a.active::after {
 }
 
 .product_card {
-  @apply relative w-[300px] bg-white rounded-lg py-5 px-4 space-y-8 overflow-hidden shadow-lg;
+  @apply relative w-[300px] laptop:w-[330px] bg-white rounded-lg px-4 py-5 laptop:px-5 laptop:py-6 space-y-8 laptop:space-y-10 overflow-hidden shadow-lg;
 }
 
 .card_decoration {
@@ -207,29 +206,33 @@ nav a.active::after {
 }
 
 .p {
-  @apply text-base uppercase text-pink;
+  @apply text-base laptop:text-lg uppercase text-red-400;
 }
 
 .h1 {
-  @apply md:text-4xl sm:text-3xl text-2xl font-bold tracking-wider w-full md:w-3/5 sm:w-full text-center text-black
+  @apply laptop:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold tracking-wider w-full md:w-3/5 sm:w-full text-center text-black
 }
 
 .section {
   @apply relative z-10 px-8 space-y-32;
 }
 
+.section1 {
+  @apply relative overflow-hidden;
+}
+
 .shad_textArea {
-  @apply placeholder:text-gray-500 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-none !important;
+  @apply placeholder:text-gray-500 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-none laptop:text-xl !important;
 }
 
 .shad_input {
-  @apply placeholder:text-gray-500 h-11 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-none !important;
+  @apply placeholder:text-gray-500 h-11 laptop:h-12 focus-visible:ring-0 focus-visible:ring-offset-0 rounded-none laptop:text-xl !important;
 }
 
 .main_animation {
-  @apply size-[910px] absolute -top-[250px] xl:-right-[210px] md:-right-[310px] -right-[410px] !important;
+  @apply size-[910px] laptop:size-[1010px] absolute -top-[250px] xl:-right-[210px] md:-right-[310px] -right-[410px] !important;
 }
 
 .main_video {
-  @apply w-[800px] h-[800px] absolute -top-[250px] xl:-right-[300px] md:-right-[400px] -right-[500px] rounded-full -skew-y-[15deg] rotate-[20deg] overflow-hidden !important;
+  @apply size-[800px] laptop:size-[900px] absolute -top-[250px] xl:-right-[300px] md:-right-[400px] -right-[500px] rounded-full -skew-y-[15deg] rotate-[20deg] overflow-hidden !important;
 }

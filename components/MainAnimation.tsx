@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { FC } from "react";
-import animationData from "@/public/animation/video-bg.json";
+import animationData from "@/public/animation/video-bg-green.json";
 
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 

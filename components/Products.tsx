@@ -4,11 +4,11 @@ import { useTranslations } from 'next-intl';
 function ProductCard({ txt, des }: { txt: string, des: string }) {
     return (
         <div className='product_card'>
-            <h3 className='text-2xl text-black font-semibold'>{txt}</h3>
-            <div className='size-20 bg-red-100 rounded-full flex items-center justify-center relative z-10'>
+            <h3 className='text-2xl laptop:text-[26px] text-black font-semibold'>{txt}</h3>
+            <div className='size-20 laptop:size-[85px] bg-green-400/60 rounded-full flex items-center justify-center relative z-10'>
                 <Nut className='size-16 text-black' strokeWidth={1} />
             </div>
-            <p className='text-base text-black font-thin'>{des}</p>
+            <p className='text-base laptop:text-xl text-black font-thin'>{des}</p>
             <div className='card_decoration' />
         </div>
     )

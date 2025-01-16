@@ -4,6 +4,7 @@ import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -12,8 +13,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Company Name",
-  description: "Company Description",
+  title: "UYCHI NUTS",
+  description: "UYCHI NUTS - Tabiatning Eng Toza Ta'mi!",
 };
 
 export default async function LocaleLayout({
@@ -32,6 +33,7 @@ export default async function LocaleLayout({
             <div className="main_gradient" />
           </div>
           {children}
+          <Toaster />
           <Footer />
         </NextIntlClientProvider>
       </body>

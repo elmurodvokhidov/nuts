@@ -2,6 +2,7 @@
     "LocaleSwitcher": {
         "uz": "O'zbekcha",
         "en": "Inglizcha",
+        "ru": "Ruscha",
         "label": "Til"
     },
     "section1": {
@@ -21,14 +22,14 @@
         "text2": "Mahsulotlarimiz bilan ajoyib xizmatni taqdim etishdan mamnunmiz",
         "title1": "Mahsulotni kashf qiling, o'rganing",
         "des1": "Mijozlarga erishishingizga yordam beradigan samarali strategiyalar",
-        "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
+        "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
     },
     "about": {
         "text1": "Biz haqimizda",
         "text2": "Biz muvaffaqiyatli raqamli mahsulotni yaratish uchun qadamlar yaratamiz",
         "des1": "50 yildan ortiq tajribaga ega bo'lgan holda, bizning vazifamiz sizning qadriyatlaringiz va qarashlaringizni hisobga olgan holda loyihalashdir. Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
         "des2": "Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
-        "header": "Biz butun Internet bo'ylab mijozlar va istiqbollarga erishishingizga yordam beradigan samarali strategiyalarni ishlab chiqamiz."
+        "header": "Biz butun Internet bo'ylab mijozlar va istiqbollarga erishishingizga yordam beradigan samarali strategiyalarni ishlab chiqamiz. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
     },
     "whyus": {
         "text1": "Nima uchun biz",
@@ -48,7 +49,7 @@
         "text1": "Digging Dipperga qiziqasizmi?",
         "text2": "Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
         "text3": "Biz bilan bog'lanish",
-        "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
+        "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
     },
     "form": {
         "title1": "Biz bilan bog'laning",
@@ -58,7 +59,9 @@
         "subject": "Mavzu",
         "time": "Dushanba - Juma 9:00 - 18:00",
         "text1": "Yuborish",
-        "text2": "Istalgan vaqtda bizga so'rovingizni yuboring!"
+        "text2": "Istalgan vaqtda bizga so'rovingizni yuboring!",
+        "successMsg": "Xabaringiz muvaffaqiyatli yuborildi!",
+        "errorMsg": "Xabar yuborilmadi. Iltimos, qayta urinib ko'ring."
     },
     "footer": {
         "title1": "Navigatsiya",

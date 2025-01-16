@@ -1,27 +1,20 @@
 import About from '@/components/About';
 import Contact from '@/components/Contact';
-import Navbar from '@/components/Navbar'
 import SectionHeader from '@/components/SectionHeader'
 import WhyUs from '@/components/WhyUs';
-import { useTranslations } from 'next-intl';
+import { getVideoByType } from '@/lib/actions/video.actions';
 
-export default function Page() {
-    const t = useTranslations('about');
+export default async function Page() {
+    const videoUrl = await getVideoByType('about');
 
     return (
         <div>
             {/* Birinchi bo'lak */}
-            <section className="h-screen relative overflow-hidden">
-                {/* Navbar Componenti */}
-                <Navbar />
-
-                {/* Sahifaning asosiy bosh bo'lagi */}
-                <SectionHeader
-                    title={t('text1')}
-                    description={t('header')}
-                    src="videos/nuts2.mp4"
-                />
-            </section>
+            <SectionHeader
+                title='about.text1'
+                description='about.header'
+                src={videoUrl}
+            />
 
             {/* Umumiy qism */}
             <section className="section">

@@ -12,7 +12,6 @@ export default {
 			colors: {
 				black: '#192839',
 				pink: '#ff4495',
-				blue: '#7db9e8',
 				orange: '#ff6d6d',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
@@ -66,6 +65,9 @@ export default {
 			backgroundSize: {
 				'dots': '10px 10px',
 			},
+			screens: {
+				laptop: "1601px"
+			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

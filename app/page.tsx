@@ -6,12 +6,15 @@ import Navbar from "@/components/Navbar";
 import Products from "@/components/Products";
 import WhyUs from "@/components/WhyUs";
 import Works from "@/components/Works";
+import { getVideoByType } from "@/lib/actions/video.actions";
 
-export default function Home() {
+export default async function Home() {
+  const videoUrl = await getVideoByType('home');
+
   return (
     <div>
       {/* Birinchi bo'lak */}
-      <section className="h-screen relative overflow-hidden">
+      <section className="section1">
         {/* Navbar Componenti */}
         <Navbar />
 
@@ -20,7 +23,7 @@ export default function Home() {
           <HomeLeftSide />
 
           {/* Bosh sahifaning o'ng qismi */}
-          <HomeRightSide src="videos/nuts.mp4" />
+          <HomeRightSide src={videoUrl} />
         </main>
       </section>
 

@@ -14,18 +14,18 @@ export default function WhyUs() {
             <div className='flex flex-wrap items-center md:gap-20 gap-10 py-8'>
                 <div className='flex flex-wrap gap-4 md:gap-0'>
                     <div className='md:border-r md:border-gray-200 md:w-52 w-full md:pr-12'>
-                        <h1 className='text-4xl text-pink font-bold'>450+</h1>
-                        <p className='text-sm text-gray-600 font-semibold'>{t('text3')}</p>
+                        <h1 className='text-4xl laptop:text-5xl text-green-700 font-bold'>450+</h1>
+                        <p className='text-sm laptop:text-lg text-gray-600 font-semibold'>{t('text3')}</p>
                     </div>
                     <div className='md:w-52 w-full md:pl-12'>
-                        <h1 className='text-4xl text-pink font-bold'>860</h1>
-                        <p className='text-sm text-gray-600 font-semibold'>{t('text4')}</p>
+                        <h1 className='text-4xl laptop:text-5xl text-green-700 font-bold'>860</h1>
+                        <p className='text-sm laptop:text-lg text-gray-600 font-semibold'>{t('text4')}</p>
                     </div>
                 </div>
 
                 <div className='space-y-5'>
-                    <p className='text-lg text-gray-700 tracking-wide'>{t('text5')}</p>
-                    <p className='text-lg text-gray-700 tracking-wide'>{t('text6')}</p>
+                    <p className='text-lg laptop:text-xl text-gray-700 tracking-wide'>{t('text5')}</p>
+                    <p className='text-lg laptop:text-xl text-gray-700 tracking-wide'>{t('text6')}</p>
                 </div>
             </div>
 
