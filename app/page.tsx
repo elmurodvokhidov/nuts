@@ -4,7 +4,7 @@ import HomeLeftSide from "@/components/HomeLeftSide";
 import HomeRightSide from "@/components/HomeRightSide";
 import Navbar from "@/components/Navbar";
 import Products from "@/components/Products";
-import WhyUs from "@/components/WhyUs";
+// import WhyUs from "@/components/WhyUs";
 import Works from "@/components/Works";
 import { getVideoByType } from "@/lib/actions/video.actions";
 
@@ -31,7 +31,7 @@ export default async function Home() {
       <section className="section">
         <Products />
         <About />
-        <WhyUs />
+        {/* <WhyUs /> */}
         <Works />
       </section>
 

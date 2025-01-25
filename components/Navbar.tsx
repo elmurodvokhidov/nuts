@@ -57,6 +57,7 @@ export default function Navbar() {
                             height={150}
                             src={logo}
                             alt="logo"
+                            className='select-none'
                         />
 
                         <div className="flex laptop:gap-20 sm:gap-10 gap-5 items-center">

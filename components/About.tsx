@@ -11,6 +11,7 @@ export default function About() {
                 alt="Picture of the author"
                 width={500}
                 height={500}
+                className='select-none'
             />
 
             <div className='lg:w-[45%] md:w-[85%] sm:w-full flex flex-col items-start md:gap-8 gap-6'>

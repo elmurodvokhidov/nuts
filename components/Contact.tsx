@@ -5,23 +5,24 @@ export default function Contact() {
     const t = useTranslations('contact');
 
     return (
-        <div className='md:my-40 my-32 relative z-10 bg-black'>
+        <div className='md:my-40 my-32 relative z-10'>
             <Image
-                src="/images/contact-bg.jpg"
+                src="/images/contact.webp"
                 alt="contact"
                 width={1920}
                 height={1800}
-                className='h-[550px] laptop:h-[600px] relative z-0 object-cover'
+                className='w-full h-[550px] laptop:h-[600px] relative z-0 object-cover select-none'
             />
 
-            <div className='absolute top-5 md:right-[15%] right-0 flex items-center justify-center'>
+            <div className='absolute top-5 md:right-[5%] laptop:right-[10%] right-0 flex items-center justify-center'>
                 <Image
                     src="/images/bg-2.png"
                     alt="shape"
                     width={500}
                     height={500}
-                    className='relative z-0 laptop:size-[550px]'
+                    className='relative z-0 laptop:size-[550px] select-none'
                 />
+
                 <div className='w-4/6 text-center flex flex-col items-center md:gap-10 gap-5 font-semibold text-white absolute z-10'>
                     <h1 className='laptop:text-5xl md:text-4xl sm:text-3xl text-2xl'>{t('text1')}</h1>
                     <p className='laptop:text-xl md:text-base sm:text-sm text-xs font-normal'>{t('text2')}</p>

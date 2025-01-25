@@ -44,7 +44,6 @@ export default function ContactForm() {
 
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
         setIsLoading(true);
-        console.log("clicked");
         try {
             const response = await fetch(`${GLOBAL_SERVER_URL}/email`, {
                 method: "POST",

@@ -236,3 +236,68 @@ nav a.active::after {
 .main_video {
   @apply size-[800px] laptop:size-[900px] absolute -top-[250px] xl:-right-[300px] md:-right-[400px] -right-[500px] rounded-full -skew-y-[15deg] rotate-[20deg] overflow-hidden !important;
 }
+
+
+
+/**
+ * THUMB
+ */
+
+.product__card__thumb {
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+.product__card__thumb img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.product__card:hover .product__card__thumb {
+  height: 130px;
+}
+
+.product__card:hover .product__card__thumb img {
+  opacity: 0.6;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/**
+ * BODY
+ */
+
+.product__card__body {
+  position: relative;
+  padding: 20px;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+.product__card:hover .product__card__body {
+  height: 250px;
+}
+
+.product__card__description {
+  line-height: 27px;
+  -webkit-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.product__card:hover .product__card__description {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}

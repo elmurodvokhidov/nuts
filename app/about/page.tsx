@@ -1,7 +1,7 @@
 import About from '@/components/About';
 import Contact from '@/components/Contact';
 import SectionHeader from '@/components/SectionHeader'
-import WhyUs from '@/components/WhyUs';
+// import WhyUs from '@/components/WhyUs';
 import { getVideoByType } from '@/lib/actions/video.actions';
 
 export default async function Page() {
@@ -19,7 +19,7 @@ export default async function Page() {
             {/* Umumiy qism */}
             <section className="section">
                 <About />
-                <WhyUs />
+                {/* <WhyUs /> */}
             </section>
 
             {/* Contact qismi */}
