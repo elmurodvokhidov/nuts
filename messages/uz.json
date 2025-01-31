@@ -5,31 +5,45 @@
         "ru": "Ruscha",
         "label": "Til"
     },
-    "section1": {
-        "text1": "Raqamli marketing bo'yicha mutaxassis",
-        "text2": "Biz sizga yangi mijozlarni olib kelamiz",
-        "text3": "Biz butun Internet bo'ylab mijozlar va istiqbollarga erishishingizga yordam beradigan samarali strategiyalarni ishlab chiqamiz.",
-        "text4": "Xizmatlarni o'rganish"
-    },
     "navbar": {
         "link1": "bosh sahifa",
         "link2": "mahsulotlar",
         "link3": "biz haqimizda",
         "link4": "aloqa"
     },
-    "products": {
-        "text1": "Mahsulotlarimiz",
-        "text2": "Mahsulotlarimiz bilan ajoyib xizmatni taqdim etishdan mamnunmiz",
-        "title1": "Mahsulotni kashf qiling, o'rganing",
-        "des1": "Mijozlarga erishishingizga yordam beradigan samarali strategiyalar",
+    "section1": {
+        "text1": "Raqamli marketing bo'yicha mutaxassis",
+        "text2": "Uychi Nuts — yuqori sifatning kafolati!",
+        "text3": "Biz butun mahalliy va xalqaro bozorlarda mijozlarimizga yuqori sifatli mahsulotlar va xizmatlarni taqdim etish orqali ishonchli hamkor sifatida tanilganmiz.",
+        "text4": "Xizmatlarni o'rganish"
+    },
+    "advantages": {
+        "text1": "Afzalliklarimiz",
+        "text2": "Uzoq muddatli va samarali hamkorlik uchun bizning afzalliklarimiz",
         "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
+    },
+    "advantagecard1": {
+        "title": "Sifat kafolati",
+        "des": "Mahsulotlarimiz ISO sertifikati va xalqaro sifat standartlariga to'liq mos keladi."
+    },
+    "advantagecard2": {
+        "title": "Innovatsion yondashuv",
+        "des": "Texnologiyalarni doimiy ravishda yangilab, zamonaviy yechimlarni tatbiq qilamiz."
+    },
+    "advantagecard3": {
+        "title": "Moslashuvchanlik",
+        "des": "Mijozlarning individual talab va ehtiyojlariga ko'ra mahsulotlarni tayyorlash imkoniyati."
+    },
+    "advantagecard4": {
+        "title": "Ekologik tozalikka e'tibor",
+        "des": "Ishlab chiqarishda atrof-muhitga zarar yetkazmaydigan materiallardan foydalanamiz."
     },
     "about": {
         "text1": "Biz haqimizda",
         "text2": "Biz muvaffaqiyatli raqamli mahsulotni yaratish uchun qadamlar yaratamiz",
         "des1": "50 yildan ortiq tajribaga ega bo'lgan holda, bizning vazifamiz sizning qadriyatlaringiz va qarashlaringizni hisobga olgan holda loyihalashdir. Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
         "des2": "Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
-        "header": "Biz butun Internet bo'ylab mijozlar va istiqbollarga erishishingizga yordam beradigan samarali strategiyalarni ishlab chiqamiz. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
+        "header": "Biz mahalliy va xalqaro bozorlarda ishonchli hamkor sifatida tanilganmiz. Uzoq muddatli va samarali hamkorlikni yo'lga qo'yish uchun quyidagi xizmatlarni taklif etamiz: \n •  Xalqaro sifat standartlariga mos ravishda ishlab chiqarilgan maxsulotlarni shartnoma asosida yetkazib berish. \n •  Texnik qo'llab-quvvatlash va maslahat xizmatlari."
     },
     "whyus": {
         "text1": "Nima uchun biz",
@@ -39,8 +53,8 @@
         "text5": "50 yildan ortiq tajribaga ega bo'lgan holda, bizning vazifamiz sizning qadriyatlaringiz va qarashlaringizni hisobga olgan holda loyihalashdir. Biz san'at va ijodni ilm-fan va strategiya bilan muvozanatlashtiradigan maqsadli joylarni yaratishga intilamiz.",
         "text6": "-Shonda Lir, Franclin Technologies kompaniyasi rahbari"
     },
-    "works": {
-        "text1": "Amaliy Ish",
+    "products": {
+        "text1": "Mahsulotlarimiz",
         "text2": "Ajoyib mahsulotlarimizdan ba'zilari",
         "text3": "Yong'oqlar",
         "text4": "Mahsulotni kashf qiling, o'rganing"

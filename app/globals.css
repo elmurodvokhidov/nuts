@@ -188,20 +188,20 @@ nav a.active::after {
   @apply bg-white rounded-lg border shadow-lg;
 }
 
-.product_card {
-  @apply relative w-[300px] laptop:w-[330px] bg-white rounded-lg px-4 py-5 laptop:px-5 laptop:py-6 space-y-8 laptop:space-y-10 overflow-hidden shadow-lg;
+.advantage__card {
+  @apply relative w-full min-h-[300px] bg-white rounded-lg px-6 py-5 laptop:px-5 laptop:py-6 space-y-8 laptop:space-y-10 overflow-hidden shadow-lg flex flex-col items-start justify-between;
 }
 
 .card_decoration {
   @apply absolute bottom-0 left-0 h-0 w-full bg-black transition-all duration-500;
 }
 
-.product_card:hover .card_decoration {
+.advantage__card:hover .card_decoration {
   @apply h-full;
 }
 
-.product_card:hover h3,
-.product_card:hover p {
+.advantage__card:hover h3,
+.advantage__card:hover p {
   @apply relative text-white z-10 transition-all duration-300;
 }
 
@@ -210,7 +210,7 @@ nav a.active::after {
 }
 
 .h1 {
-  @apply laptop:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold tracking-wider w-full md:w-3/5 sm:w-full text-center text-black
+  @apply laptop:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold tracking-wider w-full text-center text-black
 }
 
 .section {

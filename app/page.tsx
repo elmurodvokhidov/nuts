@@ -3,9 +3,9 @@ import Contact from "@/components/Contact";
 import HomeLeftSide from "@/components/HomeLeftSide";
 import HomeRightSide from "@/components/HomeRightSide";
 import Navbar from "@/components/Navbar";
-import Products from "@/components/Products";
+import Advantages from "@/components/Advantages";
 // import WhyUs from "@/components/WhyUs";
-import Works from "@/components/Works";
+import Products from "@/components/Products";
 import { getVideoByType } from "@/lib/actions/video.actions";
 
 export default async function Home() {
@@ -29,10 +29,10 @@ export default async function Home() {
 
       {/* Umumiy qism */}
       <section className="section">
-        <Products />
+        <Advantages />
         <About />
         {/* <WhyUs /> */}
-        <Works />
+        <Products />
       </section>
 
       {/* Contact qismi */}

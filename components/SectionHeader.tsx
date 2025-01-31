@@ -24,7 +24,7 @@ export default function SectionHeader({
                     <h1 className="laptop:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold tracking-wider">
                         {t(title)}
                     </h1>
-                    <p className="text-base laptop:text-xl tracking-wider">
+                    <p className="text-base laptop:text-xl tracking-wider whitespace-break-spaces">
                         {t(description)}
                     </p>
                 </aside>

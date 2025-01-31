@@ -5,31 +5,45 @@
         "ru": "Russian",
         "label": "Language"
     },
-    "section1": {
-        "text1": "Digital Marketing Expert",
-        "text2": "We bring you new customers",
-        "text3": "We build effective strategies to help you reach customers and prospects across the entire web.",
-        "text4": "Explore Services"
-    },
     "navbar": {
         "link1": "home",
         "link2": "products",
         "link3": "about",
         "link4": "contact"
     },
-    "products": {
-        "text1": "Our Products",
-        "text2": "We are pleased to provide excellent service with our products",
-        "title1": "Discover, Explore the Product",
-        "des1": "Effective strategies to help you reach customers",
+    "section1": {
+        "text1": "Digital Marketing Expert",
+        "text2": "Uychi Nuts is a guarantee of high quality!",
+        "text3": "We are known as a reliable partner throughout the domestic and international markets by providing our customers with high-quality products and services.",
+        "text4": "Explore Services"
+    },
+    "advantages": {
+        "text1": "Our Advantages",
+        "text2": "Our advantages for long-term and fruitful cooperation",
         "header": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
+    },
+    "advantagecard1": {
+        "title": "Quality assurance",
+        "des": "Our products are ISO certified and fully comply with international quality standards."
+    },
+    "advantagecard2": {
+        "title": "Innovative approach",
+        "des": "We constantly update technologies and implement modern solutions."
+    },
+    "advantagecard3": {
+        "title": "Flexibility",
+        "des": "The ability to manufacture products according to the individual requirements and needs of customers."
+    },
+    "advantagecard4": {
+        "title": "Attention to environmental cleanliness",
+        "des": "We use environmentally friendly materials in production."
     },
     "about": {
         "text1": "About Us",
         "text2": "We Create a Steps to Build a Successful Digital Product",
         "des1": "With over 50 years of combined experience, our mission is to design with your values and vision in mind. We're out to create purposeful spaces that balance art and creativity with science and strategy.",
         "des2": "We're out to create purposeful spaces that balance art and creativity with science and strategy.",
-        "header": "We build effective strategies to help you reach customers and prospects across the entire web. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab quas placeat commodi architecto. Veritatis ipsa maxime dolores provident."
+        "header": "We are known as a reliable partner in the local and international markets. To establish long-term and productive cooperation, we offer the following services: \n • Contract supply of products manufactured in accordance with international quality standards. \n • Technical support and consulting services."
     },
     "whyus": {
         "text1": "Why Choose US",
@@ -39,8 +53,8 @@
         "text5": "With over 50 years of combined experience, our mission is to design with your values and vision in mind. We're out to create purposeful spaces that balance art and creativity with science and strategy.",
         "text6": "-Shonda Leer, Chief of Staff at Franclin Technologies"
     },
-    "works": {
-        "text1": "Case Study",
+    "products": {
+        "text1": "Our Products",
         "text2": "Some Of Our Awesome Stuffs",
         "text3": "Nuts",
         "text4": "Discover, Explore the Product"

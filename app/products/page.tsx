@@ -1,7 +1,7 @@
 import Contact from '@/components/Contact'
-import Products from '@/components/Products'
+import Advantages from '@/components/Advantages'
 import SectionHeader from '@/components/SectionHeader'
-import Works from '@/components/Works'
+import Products from '@/components/Products'
 import { getVideoByType } from '@/lib/actions/video.actions'
 
 export default async function Page() {
@@ -12,14 +12,14 @@ export default async function Page() {
             {/* Birinchi bo'lak */}
             <SectionHeader
                 title='products.text1'
-                description='products.header'
+                description='advantages.header'
                 src={videoUrl}
             />
 
             {/* Umumiy qism */}
             <section className="section">
+                <Advantages />
                 <Products />
-                <Works />
             </section>
 
             {/* Contact qismi */}
